@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    font-family: serif;
+    margin-bottom: 40px;
+}
+input{
+    margin-top: 5px;
+    height: 30px;
+}
+.submitButton{
+    padding : 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.thanks{
+    text-align: center;
+}
+.imageSinger{
+    background-color: black;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.artist{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.artistWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thanks{
+    visibility: hidden;
+}
+.artSection{
+    visibility: hidden;
+    overflow: hidden;
+}
+.desc{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.artistDesc{
+    height: 100%;
+    width: auto ;
+}
+.basicInfo{
+    display: flex;
+    align-items:center;
+
+}
+.spotifyBtn{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.spotifyBtn:hover{
+    background-color: rgb(0, 255, 119);
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.btnIcon{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.aboutSection{
+    visibility: hidden;
+}
+
+.goBackBtn{
+    text-align: center;
+    cursor: pointer;
+}
+
+.spot{
+    text-decoration: none;
+}
+
+.error{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.192);
+    border-radius: 5px;
+    border: solid 1px rgb(255, 146, 146);
+    color: red;
+    visibility: hidden;
+}

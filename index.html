@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>    
+    <form>
+        <h1>Login</h1>
+        <span class="error">
+            Fill out all info
+        </span>
+        <span>
+            Name
+            <input type="text" name="User Name" class="name">
+        </span>
+        
+        <span>
+            Email
+            <input type="email" name="Email" id="" class="email">
+        </span>
+
+        <span>
+            Password
+            <input type="password" name="Password" id="" class="pswrd">
+        </span>
+        <span class="submitButton" onclick="submitFunc()">
+            Submit
+        </span>
+        <span class="thanks">
+            ✨You are signed up❤️
+        </span>
+    </form>
+
+    <form class="artSection">
+        <h1 class="artistHeading">Choose your Artist Username</h1>
+        <div class="artistWrapper">
+
+            <span class="artist" id="theWeeknd" onclick="abtWeeknd()">
+                <div class="imageSinger">
+                    <img src="Artist_Image/the-weekend.jpeg" alt="" srcset="" class="artist">
+                </div>
+                TheWeeknd
+            </span>
+            <span class="artist" id="billeEilishs" onclick="abtBillie()">
+                <div class="imageSinger">
+                    <img src="Artist_Image/Billie-Eilish.jpg" alt="" srcset="" class="artist">
+                </div>
+                Billie Eilish
+            </span>
+            <span class="artist" id="daftPunk" onclick="abtDaft()">
+                <div class="imageSinger">
+                    <img src="Artist_Image/daft-punk.jpg" alt="" srcset="" class="artist">
+                </div>
+                daft-punk
+            </span>
+
+        </div>
+        
+    </form>
+
+    <form>
+        <span>
+            <img src="" alt="" srcset="" class="descImg">
+            
+        </span>
+    </form>
+
+    <form action="" class="aboutSection">
+        <span>
+            <div class="basicInfo">
+
+                <div class="desc">
+                    <img src="Artist_Image/the-weekend.jpeg" alt="" srcset="" class="artistDesc">
+                </div>
+
+                <h3 class="artistName">TheWeeknd</h3>
+            </div>
+            <h2>About the Artist</h2>
+            <p class="artistAbout">
+                Abel Makkonen Tesfaye, known professionally as the Weeknd, is a Canadian singer-songwriter. He is known for his unconventional musical production, artistic reinventions and use of the falsetto register. Tesfaye began releasing music anonymously in 2009. 
+            </p>
+            <a href="" class="spot">
+                <div class="spotifyBtn" hre>
+                    <img src="Artist_Image/spotify.svg" alt="" srcset="" class="btnIcon"> Check Discography
+                </div>
+            </a>
+            
+            <div class="goBackBtn" onclick="backTo()">
+                Go Back
+            </div>
+        </span>
+    </form>
+
+</body>
+</html>
